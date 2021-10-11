@@ -1,18 +1,31 @@
+
 body{
     background: black;
+    padding: 10px;
+    margin: 10px;
 }
 .instagrampost{
+    padding: 10px;
     width: 400px;
     height: 500px;
     background: white;
 }
-.post-head img{
-    width: 50px;
-    margin: 10px;
-    padding-top: 10px;
+.fa-html5{
+    font-weight: bold;
+    font-size: 28px;
+}
+span{
+    position: absolute;
+    font-size: 15px;
+}
+
+
+}
 }
 .post-head{
+    width: 100%;
     display: flex;
+    
 }
 
 p{
@@ -20,14 +33,42 @@ p{
     font-size: 12px;
     font-style: italic;
     text-align: left;
-    margin: auto;
-    padding-top: 20px;
+    
+    
 }
 .post-body img {
+    padding-top: 20px;
     width: 400px;
     height: 200px;
+}
+.icono{
+    padding-top: 10px;
 }
 .post-footer p{
     font-family: Georgia, 'Times New Roman', Times, serif;
 font-style: normal;
+}
+.fa-ellipsis-v{
+  font-weight: bold;
+  float: right;
+  font-size: 28px;
+
+ 
+}
+.fa-heart-o{
+    font-weight: bold;
+    font-size: 25px;
+}
+.fa-comment-o{
+    font-weight: bold;
+    font-size: 25px;
+}
+.fa-paper-plane-o{
+    font-weight: bold;
+    font-size: 25px;
+}
+.fa-bookmark-o{
+    font-size: 25px;
+    font-weight: bold;
+    float:right;
 }
